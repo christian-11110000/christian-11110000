@@ -1,0 +1,24 @@
+.logo{
+    width: 50px;
+    height: 50px;
+    pointer-events: none;
+}
+.navbar{
+    background-color: blue;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+.nav-link{
+    color: #e0e0e0;
+    padding: 0 12px;
+    font-size: 1.2rem;
+}
+.nav .nav-link:hover{
+    color: #e0e0e0;
+}
+
+#collapsible-nav-dropdown{
+    color: #e0e0e0;;
+    font-size: 1.2rem;
+}

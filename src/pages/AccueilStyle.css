@@ -1,0 +1,217 @@
+ #fluid{
+    background: url(./image/img7.jpeg) center no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.back{
+    width: 30vw;
+    height: 70vh;
+    border-radius: 0px 15px 15px 0px;
+    margin-top: -20%;
+    margin-left: 24%;
+}
+.acc{
+    padding-top: 100px;
+    height: 100vh;
+}
+.row_acc{
+    position: relative;
+    display: grid;
+    grid-template-columns: auto auto;
+    left: 20%;
+    top: 8%;
+    background: #3c21c4;
+    border-radius: 15px;
+    height: 70vh;
+    width: 60vw;
+}
+h2{
+    color: #fafafa;
+}
+.P1{
+    color :#fafafa;
+    font-size: 1.2rem;
+    font-family: "Canva Sans", "Noto Sans Variable", "Noto Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+}
+main{
+    width: 90vw;
+    padding-right: 100px;
+    display: grid;
+    grid-template-columns: auto auto;
+    height: 80vh;
+    margin-left: 4%;
+    margin-top: 0%;
+    background: rgb(124,181,230);
+    background: linear-gradient(90deg, rgba(124,181,230,1) 0%, rgba(242,245,246,1) 50%, rgba(149,143,244,1) 100%);
+    border-radius: 10px;
+    display: block;
+}
+.main-title{
+    text-align: center;
+}
+.etudiant-img{
+    position: relative;
+    left: 15%;
+    top: 5%;
+    width: 45vw;
+    height: 65vh;
+    border-radius: 10px;
+    border: 5px solid rgb(1,10,135);
+    transition: 0.3s;
+}
+.etudiant-img:hover{
+    transform: scale(1.05);
+}
+section{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+article{
+    border: 5px solid rgb(1,10,135);
+    position: relative;
+    left: 10%;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-top: 20px;
+    transition: 0.4s;
+}
+article:hover{
+    background: rgb(28,107,215);
+    background: linear-gradient(90deg, rgba(28,107,215,1) 0%, rgba(86,151,224,1) 50%, rgba(195,187,233,1) 100%);
+    transform: scale(1.1);
+    border: 5px solid #185ad2;
+}
+.art-2 , .art-3{
+    margin-top: 20px;
+}
+.text{
+    text-align: center;
+    color: #3c21c4;
+    font-size: 1.1rem;
+}
+#Page3{
+    position: relative;
+    width: 100vw;
+    height: 30vh;
+    background: rgb(5,19,45);
+    background: linear-gradient(90deg, rgba(5,19,45,1) 0%, rgba(6,58,117,1) 50%, rgba(7,17,92,1) 100%);
+    top: 10%;
+    left: -1%;
+}
+.Contact-title{
+    text-align: center;
+    color: #fafafa;
+    padding-top: 10px;
+    font-size: 1.5rem;
+}
+hr.HR{
+    color: #fafafa;
+    width: 15vw;
+    position: absolute;
+    left: 43%;
+    top: 12%;
+}
+.contact-ul{
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+.icon{
+    padding: 2px 20px;
+    margin-top: 1%;
+}
+svg{
+    color: #fafafa;
+    height: 50px;
+    width: 50px;
+    align-items: center;
+}
+.svg{
+    color: #fafafa; 
+    position: absolute;
+    top: 55%;
+}
+ svg:hover{
+    color: aqua;
+}
+@media screen and (max-width:600px) {
+    #fluid{
+        width: 100%;
+    }
+    .row_acc{
+        display: block;
+        width: 88%;
+        margin-right: 50%;
+        margin-top: -20%;
+        border: 1px solid transparent;
+        height: 45vh;
+        background-color: transparent;
+    }
+    .back{
+        width: 55vh;
+        margin-left: -29%;
+        margin-top: 20%;
+        border-radius: 0px;
+        height: 40vh;
+        
+    }
+    .Page2{
+        margin-top: 5%;
+        height: 80vh;
+    }
+    main{
+        position: relative;
+        right: 11px;
+        width: 100vw;
+        height: 100vh;
+        display: block;
+        margin: 0;
+
+    }
+    article{
+        position: relative;
+        left: 0%;
+        width: 100vw;
+        margin: 0;
+        height: 20vh;
+        margin-top: 0;
+    }
+    .text{
+        font-size: 0.6rem;
+    }
+    article:hover{
+        transform: scale(1);
+    }
+    ul.ul-text li{
+        font-size: 0.6rem;
+    }
+    section{
+        display: block;
+    }
+    .art-2 , .art-3{
+        margin-top: 0;
+    }
+    .etudiant-img{
+        height: 30vh;
+        width: 97vw;
+        position: relative;
+        left: 2%;
+        margin-top: 2%; 
+    }
+    #Page3{
+        width: 100vw;
+        height: 20vh;
+        position: relative;
+        left: -11px;
+        top: -2%;
+    }
+    svg{
+        height: 20px;
+        width: 20px;
+    }
+
+}
+
