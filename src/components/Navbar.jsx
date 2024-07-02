@@ -33,7 +33,7 @@ function CollapsibleExample() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mx-auto">
-            <LinkContainer to='/acc' style={{color : linkColor}} >
+            <LinkContainer to='/' style={{color : linkColor}} >
               <Nav.Link style={{color : linkColor}}  >Accueil</Nav.Link>
             </LinkContainer>
             <LinkContainer to='/app' style={{color : linkColor}} >
